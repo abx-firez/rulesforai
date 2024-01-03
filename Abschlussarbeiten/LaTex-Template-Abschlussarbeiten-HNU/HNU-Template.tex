@@ -20,6 +20,7 @@
 \usepackage{lipsum} % für Lorem Ipsum-Text
 \usepackage{booktabs} % für Tabellenstyling
 \usepackage{microtype} % Ausgabeverschönerung
+\usepackage{listings} % für Code-Listings
 
 \onehalfspacing % Zeilenabstand im gesamten Dokument
 
@@ -177,6 +178,25 @@ Die Tabelle \ref{tab:beispiel} zeigt ein Beispiel für eine Tabelle. \lipsum[1]
 
 \subsubsection{Eine weitere Schachtelungsebene}
 ... mit Infos.
+
+
+\subsubsection{Ein Beispiel zum Einbetten von Code}
+Hier ein Beispiel wie Code eingebettet werden kann.
+
+% Das Styling eines Listings kann hochgradig angepasst werden, siehe bitte z.B. https://www.overleaf.com/learn/latex/Code_listing
+\begin{lstlisting}[language=Python, caption=Beispiel für Python-Code]
+    def get_pdf_text(pdf_docs):
+    logging.info("Reading text from PDFs")
+    text = ""
+    for pdf in pdf_docs:
+        pdf_reader = PdfReader(pdf)
+        for page in pdf_reader.pages:
+            text += page.extract_text()
+    return text
+\end{lstlisting}
+
+% Die Caption aus dem Listing kann später auch im Quellcodeverzeichnis auftauchen.
+% \lstlistoflistings wäre das entsprechende Kommando dafür, welches nach dem Tabellenverzeichnis eingefügt werden kann.
 
 
 \subsection{Beispiel für eine Abbildung}

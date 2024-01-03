@@ -1,0 +1,244 @@
+% Bereitgestellt von Prof. Dr. Alexander Bartel, alexander.bartel@hnu.de, Fakultät Informationsmanagement, HNU
+% Das folgende Template kann für Bachelor- und Masterarbeiten an der HNU verwendet werden. Per default ist die Ausgabensprache deutsch.
+% In der Datei references.bib können Sie Ihre Quellen angeben. Achten Sie auf den korrekten  Dokument-/Zitationstyp, damit die Referenz korrekt im Quellenverzeichnis dargestellt wird. Viele Datenbanken bieten bei einzelnen Quellen BibTeX-Exporte an, die Sie in references.bib direkt übernehmen können. Achten Sie dennoch auf die Vollständigkeit und Korrektheit der übernommenen Daten. Eine erste gute Orientierung: https://de.wikipedia.org/wiki/BibTeX. 
+% Zur Verwaltung und Pflege Ihrer Literatur empfehle ich Zotero (https://www.zotero.org/), JabRef (https://www.jabref.org/) oder Mendeley (https://www.mendeley.com/). Citavi wird nicht mehr empfohlen.
+% Für das Schreiben der eigentlichen Arbeit empfehle ich als Online-Editor Overleaf (https://www.overleaf.com) oder TeXStudio (https://www.texstudio.org/) als Desktop-App. Theoretisch kann jeder beliebige Editor dafür verwendet werden.
+% Am Besten, Sie starten mit dem Bereich Variablen.
+% Viel Erfolg bei der Umsetzung Ihrer Abschlussarbeit!
+
+
+\documentclass[12pt, a4paper, twoside]{article} % bitte nicht verändern!
+\usepackage[utf8]{inputenc} % Codierung
+\usepackage[T1]{fontenc} % für korrekte Schriftdarstellung
+\usepackage[ngerman]{babel} % deutsches Sprachpaket
+\usepackage{amsmath} % für mathematische Strukturen und Formeln
+\usepackage{graphicx} % Einfügen von Grafiken
+\usepackage{setspace} % für Zeilenabstand im gesamten Dokument
+\usepackage{hyperref} % für klickbare "Links" im Doc
+\usepackage{csquotes} % für korrekte Darstellung von Anführungszeichen
+\usepackage{geometry} % für Layoutparameter (z.B. Seitenränder)
+\usepackage{lipsum} % für Lorem Ipsum-Text
+\usepackage{booktabs} % für Tabellenstyling
+\usepackage{microtype} % Ausgabeverschönerung
+
+\onehalfspacing % Zeilenabstand im gesamten Dokument
+
+% Seitenränder und Abstände, bitte nicht verändern
+\geometry{top=2.5cm, bottom=2.5cm, left=3.5cm, right=1.5cm}
+\setlength{\headheight}{15pt}
+\setlength{\parindent}{0pt}
+
+% siehe bitte https://www.hnu.de/hochschule/einrichtungen-und-service/bibliothek/wissenschaftliches-arbeiten/zitiersoftware/zitierstile-an-der-hnu für alternative Stile
+\usepackage[backend=biber,style=ieee]{biblatex} 
+\addbibresource{references.bib} 
+
+% ##############################################
+% Variablen, die mit Beispieldaten gefüllt sind, starten Sie Ihre Anpassungen hier
+% ##############################################
+\newcommand*{\getUniversityGerman}{Hochschule für angewandte Wissenschaften Neu-Ulm}
+\newcommand*{\getUniversity}{University of Applied Sciences Neu-Ulm}
+\newcommand*{\getFaculty}{Informationsmanagement}
+\newcommand*{\getStudyCourse}{Data Science Management}
+\newcommand*{\getThesisType}{Masterarbeit}
+\newcommand*{\getTitle}{Eine vergleichende Untersuchung ...}
+\newcommand*{\getAuthor}{Max Mustermann}
+\newcommand*{\getAuthorAddress}{Musterstraße 12b, 23456 Testort}
+\newcommand*{\getAuthorEmail}{Max.Mustermann@mail.com}
+\newcommand*{\getSupervisor}{Prof. Dr. Alexander Bartel}
+\newcommand*{\getCoSupervisor}{Prof. Dr. Stefan Faußer}
+\newcommand*{\getAdvisor}{Muster Muster, M.Sc.}
+\newcommand*{\getAdvisorEmail}{Mustervorname.Musternachname@\getCompany.de}
+\newcommand*{\getCompany}{Unternehmen}
+\newcommand*{\getCompanyDepartment}{Software Development}
+\newcommand*{\getCompanyAddress}{Musterstraße 3, 88316 Isny}
+\newcommand*{\getSubmissionDate}{12.12.2024}
+\newcommand*{\getSubmissionLocation}{Neu-Ulm}
+
+\begin{document}
+
+\newgeometry{top=0cm, bottom=0cm, left=0cm, right=0cm} % Keine Seitenränder
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{\fill} % Zentriert den Inhalt vertikal auf der Seite
+
+        \begin{minipage}{\textwidth}
+            \centering
+
+            \includegraphics[width=5cm]{HNU_Logo.jpg} 
+            \vspace*{1cm}
+
+            \begin{minipage}{0.6\textwidth}
+                \centering
+                \Large \textbf{\getThesisType} \\
+                \vspace{0.5cm}
+                \large \textbf{im Studiengang \getStudyCourse} \\
+                \vspace{0.5cm}
+                \vspace{0.2cm}
+                \hrule % Horizontale Linie
+                \vspace{0.2cm}
+                \Huge \textbf{\getTitle} \\
+                \vspace{0.2cm}
+                \hrule % Horizontale Linie
+                \vspace{0.5cm}
+                \normalsize vorgelegt von \\
+                \textbf{\getAuthor} \\
+                am \getSubmissionDate \\
+            \end{minipage}
+
+            \vspace*{1cm}
+
+            \begin{minipage}{0.4\textwidth}
+                \raggedleft
+                \small
+                \begin{tabular}{l l}
+                    Aufgabensteller: & \getSupervisor \\
+                    Zweitkorrektor: & \getCoSupervisor \\
+                    Fakultät: & \getFaculty \\
+    			&\\
+                    % wenn nicht im Unternehmen geschrieben, diesen Block löschen
+                    Unternehmen: & \getCompany \\
+                    Abteilung: & \getCompanyDepartment \\
+                    &\getCompanyAddress \\
+                    Betreuer*in: & \getAdvisor \\
+                    &muster.muster@unternehmen.de \\
+        		&\\
+                    Anschrift Verfasser: & \getAuthorAddress \\
+                    &\getAuthorEmail \\
+                \end{tabular}
+            \end{minipage}
+        \end{minipage}
+
+
+        \vspace*{\fill} % Zentriert den Inhalt vertikal auf der Seite
+    \end{center}
+\end{titlepage}
+
+
+\restoregeometry % Wiederherstellung der ursprünglichen Seitenränder
+\pagenumbering{roman} % Seitennummerierung mit römischen Ziffern
+
+% ##############################################
+% Zusammenfassung
+% ##############################################
+\section*{Zusammenfassung}
+\lipsum[1-2] % Generiert Lorem Ipsum-Text, kann gelöscht werden
+\\
+Laut \cite{example} zeigen Studien, dass... und \cite{lin1973} zeigt, dass ... und nicht zu vergessen, dass das wichtig ist \cite[vgl.][S. 15ff.]{Jain}.
+
+% ##############################################
+% Inhalts-, Abbildungs- und Tabellenverzeichnis
+% ##############################################
+\newpage
+\tableofcontents
+
+\newpage
+\listoffigures
+\listoftables
+
+
+% ##############################################
+% Einleitung
+% ##############################################
+\newpage
+\section{Einleitung}
+\pagenumbering{arabic} % Seitennummerierung mit arabischen Ziffern
+Hier steht der Inhalt der Einleitung, mit vielen Erklärungen, die ordentlich zitiert sind nach \cite[S. 25ff.]{example}.
+
+
+% ##############################################
+% Hauptteil
+% ##############################################
+\newpage
+\section{Hauptteil}
+Hier steht der Inhalt der Einleitung, mit vielen Erklärungen, die ordentlich zitiert sind nach \cite{bookexample}.
+
+
+\subsection{Beispiel für eine Tabelle}
+
+Ein bisschen viel Text... \lipsum[1]
+
+\begin{table}[h]
+\centering
+\caption{Beispiel für eine Tabelle}
+\label{tab:beispiel}
+    \begin{tabular}{cc}
+        \toprule
+        Spalte 1 & Spalte 2 \\
+        \midrule
+        Wert 1 & Wert 2 \\
+        Wert 3 & Wert 4 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+Die Tabelle \ref{tab:beispiel} zeigt ein Beispiel für eine Tabelle. \lipsum[1]
+
+
+\subsubsection{Eine weitere Schachtelungsebene}
+... mit Infos.
+
+
+\subsection{Beispiel für eine Abbildung}
+Ein bisschen viel Text... \lipsum[1] 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.5\textwidth]{HNU_Logo.jpg}
+\caption{Beispiel für eine Abbildung}
+\label{fig:beispiel}
+\end{figure}
+Die Abbildung \ref{fig:beispiel} zeigt ein Beispiel für eine Abbildung. \lipsum[1]
+
+
+% ##############################################
+% Zusammenfassung
+% ##############################################
+\newpage 
+\section{Zusammenfassung}
+Hier steht die Zusammenfassung der vorliegenden Arbeit.
+
+
+% ##############################################
+% Quellenverzeichnis
+% ##############################################
+\newpage
+\printbibliography % siehe bitte https://www.hnu.de/hochschule/einrichtungen-und-service/bibliothek/wissenschaftliches-arbeiten/zitiersoftware/zitierstile-an-der-hnu
+
+
+% ##############################################
+% Anhang
+% ##############################################
+\newpage
+\section{Anhang}
+Folgende Dinge befinden sich im Anhang
+\begin{itemize}
+    \item Übersicht über a
+    \item Überwsicht über b
+    \item Überwsicht über ...
+\end{itemize}
+
+Darüber hinaus gibt es weitere Dinge zu sehen, wie ... 
+
+
+% ##############################################
+% Erklärung
+% ##############################################
+\newpage
+\section*{Erklärung} % bitte beachten Sie die Hinweise vom Studien und Prüfungsamt
+Ich erkläre hiermit an Eides statt, dass ich die vorliegende Arbeit selbstständig und ohne unzulässige fremde Hilfe angefertigt habe. Die verwendeten Quellen sind vollständig zitiert. Darüber hinaus erkläre ich ebenfalls die Regeln für den Einsatz von künstlicher Intelligenz im Erstellprozess der vorliegenden Arbeit befolgt zu haben, zu finden im Dokument Rules for AI (siehe \url{https://github.com/abx-firez/HNUdocs/blob/develop/RulesForAI.pdf)}.
+\bigskip
+ 
+\textit{Neu-Ulm, den 12.12.2024}
+
+\smallskip
+
+\begin{flushright}
+    \begin{tabular}{cc}
+        \\ \hline
+        \centering 
+        \getAuthor 
+    \end{tabular}
+\end{flushright}
+
+\end{document}

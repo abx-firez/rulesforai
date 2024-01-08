@@ -14,3 +14,10 @@ Bitte beachten Sie außerdem die Inhalte in diesem Ordner: https://github.com/ab
 - Entwicklung und Design einer Microservice-basierten Webapp für das Projekttracking von Studierenden in deren Software Engineering Projekten als Teil einer bestehenden Software Suite
 
 - Neuentwicklung klassischer Computerspiele unter Verwendung moderner KI-Werkzeuge
+
+
+### Abschlussarbeiten von Unternehmen
+
+Kommen Sie bitte wegen der folgenden Themen direkt auf mich zu.
+
+- Fa. Wanzl: https://wanzl-karriere.dvinci-hr.com/de/jobs/30562/werkstudent-mwdabschlussarbeit-master-oder-bachelor

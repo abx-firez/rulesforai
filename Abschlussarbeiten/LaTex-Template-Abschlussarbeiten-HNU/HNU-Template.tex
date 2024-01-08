@@ -2,11 +2,18 @@
 % Das folgende Template kann für Bachelor- und Masterarbeiten an der HNU verwendet werden. Standardmäßig ist die Ausgabesprache Deutsch.
 
 % Ein paar Empfehlungen/Anmerkungen vorab:
-% 1. In der Datei references.bib können Sie Ihre Quellen angeben. Achten Sie auf den richtigen Dokument-/Zitationstyp, damit die Referenz korrekt im Quellenverzeichnis dargestellt wird. Viele Datenbanken bieten bei einzelnen Quellen BibTeX-Exporte an, die Sie in references.bib direkt übernehmen können. Achten Sie dennoch auf die Vollständigkeit und Korrektheit der übernommenen Daten. Eine erste gute Orientierung bietet: https://de.wikipedia.org/wiki/BibTeX. 
-% 2. Zur Verwaltung und Pflege Ihrer Literatur empfehle ich Zotero (https://www.zotero.org/), JabRef (https://www.jabref.org/) oder Mendeley (https://www.mendeley.com/). Citavi wird nicht mehr empfohlen. Gute Einführungsvideos finden Sie von der HNU-Bibliothek hier: https://www.hnu.de/hochschule/einrichtungen-und-service/bibliothek/wissenschaftliches-arbeiten/videotutorials
-% 3. Für das Schreiben der eigentlichen Arbeit empfehle ich als Online-Editor Overleaf (https://www.overleaf.com) oder TeXStudio (https://www.texstudio.org/) als Desktop-App. Theoretisch kann jeder beliebige Text-Editor dafür verwendet werden. Wenn Sie dieses Template in Overleaf importieren wollen, müssen Sie zunächst alle 3 Dateien (HNU-Template.tex, references.bib, HNU_Logo.jpg) in einem Zip-Archiv zusammenfassen und dann in Overleaf importieren.
-% 4. In jedem Fall sollten Sie sich mit den Grundlagen von LaTeX vertraut machen, bevor Sie mit dem Schreiben Ihrer Arbeit beginnen. Eine gute Einführung finden Sie hier: https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
-% 5. Sichern Sie Ihre Arbeit regelmäßig, am besten im Hintergrund durch einen Cloud-Hoster, wie z.B. Dropbox, Google Drive, OneDrive, oder nutzen Sie das wesentlich Datenschutz-freundlichere Angebot des LRZ: https://sync.lrz.de/ (Zugriff darauf mittels HNU-Account möglich, Client für alle Plattformen verfügbar). Alternativ kann ein (privates) Github Repo natürlich auch verwendet werden.
+% 1. In der Datei references.bib können Sie Ihre Quellen angeben. Achten Sie auf den richtigen Dokument-/Zitationstyp, damit die Referenz korrekt im Quellenverzeichnis dargestellt wird. 
+%    Viele Datenbanken bieten bei einzelnen Quellen BibTeX-Exporte an, die Sie in references.bib direkt übernehmen können. 
+%    Achten Sie dennoch auf die Vollständigkeit und Korrektheit der übernommenen Daten. Eine erste gute Orientierung bietet: https://de.wikipedia.org/wiki/BibTeX. 
+% 2. Zur Verwaltung und Pflege Ihrer Literatur empfehle ich Zotero (https://www.zotero.org/), JabRef (https://www.jabref.org/) oder Mendeley (https://www.mendeley.com/). 
+%    Citavi wird nicht mehr empfohlen. Gute Einführungsvideos finden Sie von der HNU-Bibliothek hier: https://www.hnu.de/hochschule/einrichtungen-und-service/bibliothek/wissenschaftliches-arbeiten/videotutorials
+% 3. Für das Schreiben der eigentlichen Arbeit empfehle ich als Online-Editor Overleaf (https://www.overleaf.com) oder TeXStudio (https://www.texstudio.org/) als Desktop-App. 
+%    Theoretisch kann jeder beliebige Text-Editor dafür verwendet werden. Wenn Sie dieses Template in Overleaf importieren wollen, müssen Sie zunächst alle 3 Dateien (HNU-Template.tex, references.bib, HNU_Logo.jpg) 
+%    in einem Zip-Archiv zusammenfassen und dann in Overleaf importieren.
+% 4. In jedem Fall sollten Sie sich mit den Grundlagen von LaTeX vertraut machen, bevor Sie mit dem Schreiben Ihrer Arbeit beginnen. 
+%    Eine gute Einführung finden Sie hier: https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
+% 5. Sichern Sie Ihre Arbeit regelmäßig, am besten im Hintergrund durch einen Cloud-Hoster, wie z.B. Dropbox, Google Drive, OneDrive, oder nutzen Sie das wesentlich Datenschutz-freundlichere Angebot des LRZ: 
+%    https://sync.lrz.de/ (Zugriff darauf mittels HNU-Account möglich, Client für alle Plattformen verfügbar). Alternativ kann ein (privates) Github Repo natürlich auch verwendet werden.
 
 % So, nun kann es los gehen! Am Besten, Sie starten mit dem Bereich Variablen (siehe unten).
 % Viel Erfolg bei der Umsetzung Ihrer Abschlussarbeit!
@@ -43,21 +50,21 @@
 % ##############################################
 \newcommand*{\getUniversityGerman}{Hochschule für angewandte Wissenschaften Neu-Ulm}
 \newcommand*{\getUniversity}{University of Applied Sciences Neu-Ulm}
-\newcommand*{\getFaculty}{Informationsmanagement}
 \newcommand*{\getStudyCourse}{Data Science Management}
-\newcommand*{\getThesisType}{Masterarbeit}
-\newcommand*{\getTitle}{Eine vergleichende Untersuchung ...}
+\newcommand*{\getThesisType}{Bachelorarbeit}
+\newcommand*{\getTitle}{Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua}
 \newcommand*{\getAuthor}{Max Mustermann}
 \newcommand*{\getAuthorAddress}{Musterstraße 12b, 23456 Testort}
 \newcommand*{\getAuthorEmail}{Max.Mustermann@mail.com}
 \newcommand*{\getSupervisor}{Prof. Dr. Alexander Bartel}
 \newcommand*{\getCoSupervisor}{Prof. Dr. Stefan Faußer}
-\newcommand*{\getAdvisor}{Muster Muster, M.Sc.}
+\newcommand*{\getAdvisor}{Mustername Mustervorname, M.Sc.}
 \newcommand*{\getAdvisorEmail}{Mustervorname.Musternachname@\getCompany.de}
-\newcommand*{\getCompany}{Unternehmen}
-\newcommand*{\getCompanyDepartment}{Software Development}
+\newcommand*{\getCompany}{Unternehmen GmbH}
+\newcommand*{\getCompanyDepartment}{Abteilung Software Development}
 \newcommand*{\getCompanyAddress}{Musterstraße 3, 88316 Isny}
-\newcommand*{\getSubmissionDate}{12.12.2024}
+\newcommand*{\getTopicReceivedDate}{01.01.2024}
+\newcommand*{\getSubmissionDate}{01.04.2024}
 \newcommand*{\getSubmissionLocation}{Neu-Ulm}
 
 \begin{document}
@@ -85,13 +92,12 @@
                 \vspace{0.2cm}
                 \hrule % Horizontale Linie
                 \vspace{0.2cm}
-                \Huge \textbf{\getTitle} \\
+                \Large \textbf{\getTitle} \\
                 \vspace{0.2cm}
                 \hrule % Horizontale Linie
                 \vspace{0.5cm}
                 \normalsize vorgelegt von \\
                 \textbf{\getAuthor} \\
-                am \getSubmissionDate \\
             \end{minipage}
 
             \vspace*{1cm}
@@ -100,19 +106,21 @@
                 \raggedleft
                 \small
                 \begin{tabular}{l l}
-                    Aufgabensteller: & \getSupervisor \\
+                    Erstkorrektor: & \getSupervisor \\
                     Zweitkorrektor: & \getCoSupervisor \\
-                    Fakultät: & \getFaculty \\
     			&\\
                     % wenn nicht im Unternehmen geschrieben, diesen Block löschen
                     Unternehmen: & \getCompany \\
-                    Abteilung: & \getCompanyDepartment \\
+                                & \getCompanyDepartment \\
                     &\getCompanyAddress \\
                     Betreuer*in: & \getAdvisor \\
                     &muster.muster@unternehmen.de \\
         		&\\
                     Anschrift Verfasser: & \getAuthorAddress \\
                     &\getAuthorEmail \\
+                &\\
+                    Thema erhalten: & \getTopicReceivedDate \\
+                    Arbeit eingereicht: & \getSubmissionDate \\
                 \end{tabular}
             \end{minipage}
         \end{minipage}

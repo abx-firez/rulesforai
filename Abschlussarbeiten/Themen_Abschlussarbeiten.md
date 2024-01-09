@@ -15,6 +15,8 @@ Bitte beachten Sie außerdem die Inhalte in diesem Ordner: https://github.com/ab
 
 - Neuentwicklung klassischer Computerspiele unter Verwendung moderner KI-Werkzeuge
 
+- Instrumentalisierung von Gaming-Plattformen: Eine Analyse der Nutzung von Videospielen für Propaganda und Desinformation
+
 
 ### Abschlussarbeiten von Unternehmen
 

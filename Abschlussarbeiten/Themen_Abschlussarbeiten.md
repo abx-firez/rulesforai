@@ -17,6 +17,8 @@ Bitte beachten Sie außerdem die Inhalte in diesem Ordner: https://github.com/ab
 
 - Instrumentalisierung von Gaming-Plattformen: Eine Analyse der Nutzung von Videospielen für Propaganda und Desinformation
 
+- Redeveloping Classic Computer Games By Using Recent AI Technology
+
 
 ### Abschlussarbeiten von Unternehmen
 

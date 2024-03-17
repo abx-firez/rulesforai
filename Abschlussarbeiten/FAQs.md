@@ -15,7 +15,7 @@ Beachten Sie bitte die Zitationsvorgaben gemäß den Richtlinien der Hochschule 
 
 **Welche Angaben des Studien- und Prüfungsamts müssen bei der Erstellung der Abschlussarbeit beachtet werden?**
 
-Achten Sie darauf, die Angaben des Studien- und Prüfungsamts gemäß diesem Link bei der Erstellung Ihrer Abschlussarbeit zu berücksichtigen: https://intern.hnu.de/einrichtungen/referate-studium-pruefung/formulare-und-anleitungen
+Achten Sie darauf, die Angaben des Studien- und Prüfungsamts gemäß diesem Link bei der Erstellung Ihrer Abschlussarbeit zu berücksichtigen: https://intern.hnu.de/einrichtungen/referate-studium-pruefung/formulare-und-anleitungen insb. der Punkt "EXAMS" > "Abschlussarbeit". Dort finden Sie insbesondere wertvolle Hinweise zur Verschriftlichung und Bewertung Ihrer Abschlussarbeit (siehe z.B. Dokument "Leitlinien für wisschenschaftliche Arbeiten - Fakultät IM").
 
 **Wie sollten Studierende mit einem Sperrvermerk in ihrer Arbeit umgehen?**
 

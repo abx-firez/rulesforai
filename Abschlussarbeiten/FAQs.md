@@ -7,7 +7,7 @@ Dieses Dokument stellt eine Sammlung von Fragen und deren Beantwortung vor, die 
 **Wie sollte der Erstkontakt mit mir für das Verfassen einer Bachelor- oder Masterarbeit erfolgen?** 
 
 Bitte kontaktieren Sie mich per E-Mail und teilen Sie mir Ihre Themenidee inklusive eines aussagekräftigen Abstracts (ca. 1/2 Seite) mit. Falls bereits vorhanden, können Sie auch gerne einen Gliederungsvorschlag beifügen. Geben Sie bitte zudem den gewünschten Zeitraum für die Bearbeitung der Arbeit an und nennen Sie eventuelle Ideen für Zweitkorrektoren/Betreuer, insbesondere wenn diese aus Unternehmen stammen sollen.
-Alles weitere klären wir dann in einem nachfolgenden Zoom-Call. Bitte informieren Sie mich ebenfalls im Erstkontakt über mögliche Einschränkungen/Hindernisse, wie beispielsweise zeitlich begrenzte Softwarelizenzen, beschränkten Zugang zu benötigten Gerätschaften, Auslandsaufenthalte etc., die für Ihre Arbeit relevant sind oder umittelbaren Einfluss darauf haben.
+Alles weitere klären wir dann in einem nachfolgenden Gespräch. Bitte informieren Sie mich ebenfalls im Erstkontakt über mögliche Einschränkungen/Hindernisse, wie beispielsweise zeitlich begrenzte Softwarelizenzen, beschränkten Zugang zu benötigten Gerätschaften, Auslandsaufenthalte etc., die für Ihre Arbeit relevant sind oder umittelbaren Einfluss darauf haben.
 
 **Welche Zitationsvorgaben sind für die Abschlussarbeit zu beachten?**
 
@@ -29,7 +29,7 @@ Es wird empfohlen, die Abschlussarbeit nicht ausschließlich an der HNU, sondern
 
 Da die Abschlussarbeit eine Prüfungsleistung ist, kann es vorkommen, dass ein Themenvorschlag von einem Unternehmen durch mich angepasst wird. Bisher gab es noch nie, dass kein für beide Seiten guter Kompromiss zwischen mir als betreuender Professor und dem Unternehmen gefunden werden konnte.
 
-**Gibt es Vorlage für die Anfertigung meiner Abschlussarbeit?**
+**Gibt es eine Vorlage für die Anfertigung meiner Abschlussarbeit?**
 
 Ja, die gibt es. 
 - Die Word-Vorlage finden Sie hier: https://intern.hnu.de/einrichtungen/referate-studium-pruefung/formulare-und-anleitungen

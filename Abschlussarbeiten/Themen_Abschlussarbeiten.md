@@ -21,7 +21,7 @@ Bitte beachten Sie außerdem die Inhalte in diesem Ordner: https://github.com/ab
 
 - Instrumentalisierung von Gaming-Plattformen: Eine Analyse der Nutzung von Videospielen für Propaganda und Desinformation
 
-- Konzeption und Entwicklung einer KI-basierten Plattform zur automatisierten Analyse eines Github Repositories
+- Konzeption und Entwicklung einer KI-basierten Plattform zur automatisierten Analyse von Github Repositories
 
 
 ### Abschlussarbeiten von Unternehmen

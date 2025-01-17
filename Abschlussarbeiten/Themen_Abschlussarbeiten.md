@@ -22,10 +22,12 @@ Bitte beachten Sie außerdem die Inhalte in diesem Ordner: https://github.com/ab
 - Instrumentalisierung von Gaming-Plattformen: Eine Analyse der Nutzung von Videospielen für Propaganda und Desinformation
 
 - Konzeption und Entwicklung einer KI-basierten Plattform zur automatisierten Analyse von Github Repositories
+  
+- Entwicklung eines agentenbasierten Systems zur Studienberatung – Anforderungsanalyse, Architektur und Implementierung eines LLM-gestützten Chatbots
+
+- Entwicklung eines agentenbasierten Systems zur automatischen Bearbeitung von Github Issues 
 
 
 ### Abschlussarbeiten von Unternehmen
 
-Kommen Sie bitte wegen der folgenden Themen direkt auf mich zu.
-
-- Fa. Wanzl: https://wanzl-karriere.dvinci-hr.com/de/jobs/30562/werkstudent-mwdabschlussarbeit-master-oder-bachelor
+Bitte sprechen Sie mich direkt an.
